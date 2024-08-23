@@ -1,7 +1,7 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { TfiRulerPencil } from "react-icons/tfi"
+import { AiOutlineCalendar,AiOutlineClockCircle } from "react-icons/ai"
+import { TfiRulerPencil,FaUserTie } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
-import { BiUser } from "react-icons/bi"
+import { BiUser,BiCut } from "react-icons/bi"
 
 export const home = [
   {
@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "Provide outstanding customer care",
   },
   {
     icon: <BiUser size={25} />,
@@ -24,55 +24,55 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Hair Cutting",
     cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Trims and precision cutting" }, { text: "Layered cuts" }, { text: "Blowouts, curling, and straightening" }, { text: "Updos " }, { text: "Updos and special occasion stylingt" }],
   },
-  {
-    id: 2,
-    title: "Digital Marketing",
-    cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
-  },
+  // {
+  //   id: 2,
+  //   title: "Hair Coloring and Dyeing",
+  //   cover: "../images/e2.jpg",
+  //   desc: [{ text: "Root touch-ups" }, { text: "Full-color applications Highlights" }, { text: "balayage" }, { text: "ombre Color correction and fashion colors" }],
+  // },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Hair Treatments",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [{ text: "Deep conditioning treatments" }, { text: "Keratin smoothing treatments" }, { text: "Scalp treatments" }, { text: "Bond-building treatments (e.g., Olaplex)" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Texturizing and Specialized Services",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Perms and relaxers" }, { text: "Hair extensions" }, { text: "Brazilian blowouts ,Bridal and special occasion styling" }],
   },
 ]
 export const testimonial = [
   {
     id: 1,
     name: "Alexander Black",
-    cover: "../images/e1.jpg",
+    cover: "../images/e1.jpeg",
     post: "Seven consulting - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 2,
     name: "Diana Green",
-    cover: "../images/e2.jpg",
+    cover: "../images/e2.jpeg",
     post: "Seven Arts - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
   {
     id: 3,
     name: "Alexander Black",
-    cover: "../images/e3.jpg",
+    cover: "../images/e3.jpeg",
     post: "Seven consulting - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 4,
     name: "Diana Green",
-    cover: "../images/e4.jpg",
+    cover: "../images/e4.jpeg",
     post: "Seven Arts - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
@@ -144,39 +144,39 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
-    cover: "../images/b1.webp",
-    catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
+    title: "Looking for a new hair salon? Choose Curly Up & Dye!",
+    cover: "../images/b1.jpg",
+    catgeory: "CURL UP & DYE",
+    date: "AUGUST 17, 2024",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "Our Services For You - Curl Up & Dye",
     cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
+    catgeory: "CURL UP & DYE",
+    date: "AUGUST 18, 2024",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "Ready for a Transformation? Curl Up & Dye!",
     cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
+    catgeory: "CURL UP & DYE",
+    date: "AUGUST 19, 2024",
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
+    title: "wHY I CHOOSE CURL UP AND DYE",
     cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
+    catgeory: "CURL UP & DYE",
+    date: "AUGUST 20, 2024",
   },
 ]
-export const teamdata = [
+export const staffdata = [
   {
     id: 1,
     title: "Alexander Black",
     cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    post: "FOUNDER, STYLIST",
   },
   {
     id: 2,
@@ -221,3 +221,31 @@ export const teamdata = [
     post: "",
   },
 ]
+export const appointmentOptions = [
+  {
+    id: 1,
+    cover: "../images/b1.jpg", // Path to the image for the service
+    title: "Haircut",
+    category: "Haircut Service",
+    date: "2024-08-20", // Default date (can be dynamically updated)
+    time: "10:00 AM", // Default time (can be dynamically updated)
+  },
+  {
+    id: 2,
+    cover: "../images/b2.jpg",
+    title: "Hair Coloring",
+    category: "Coloring Service",
+    date: "2024-08-22",
+    time: "01:00 PM",
+  },
+  {
+    id: 3,
+    cover: "../images/b3.jpg",
+    title: "Hair Styling",
+    category: "Styling Service",
+    date: "2024-08-25",
+    time: "03:00 PM",
+  },
+]
+
+ 

@@ -10,10 +10,10 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+              <TitleLogo title='CURL HAIR' caption='&' className='DYE' />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Questions? Reach us <br /> Monday – Friday 
               </span>
               <br />
               <br />
@@ -22,12 +22,12 @@ const Footer = () => {
               <button className='button-primary'>Request for quote</button>
             </div>
             <ul>
-              <h3>COMPANY</h3>
+              <h3>SALON</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/'>About Salon</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/'>Our Staff</Link>
               </li>
               <li>
                 <Link href='/'>Showcase</Link>
@@ -36,27 +36,27 @@ const Footer = () => {
                 <Link href='/'>Blog</Link>
               </li>
               <li>
-                <Link href='/'>Demo design system</Link>
+                <Link href='/'>Our Work</Link>
               </li>
               <li>
                 <Link href='/'>Contact</Link>
               </li>
             </ul>
-            <ul>
+            {/* <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/'>Trendy Hairstyles</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/'>Gift Cards & Packages</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/'>Curl & Wave Styling</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/'>Hair Extensions</Link>
               </li>
-            </ul>
+            </ul> */}
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
@@ -85,10 +85,10 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2024 Curl Up and Dye. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>Curl Up and Dye SALON</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

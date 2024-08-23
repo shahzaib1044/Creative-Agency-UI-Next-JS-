@@ -1,5 +1,6 @@
 import { expertise } from "@/assets/data/dummydata"
 import { Card } from "@/components/common/Card"
+import ServiceCard from "@/components/ServiceCard"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 
@@ -13,10 +14,9 @@ const Services = () => {
             <br />
             <Title title='Unique technologies & modern approach' className='title-bg' />
           </div>
-          <div className='grid-2 py'>
-            {expertise.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} show={true} />
-            ))}
+         
+          <div>
+            <ServiceCard/>
           </div>
         </div>
       </section>

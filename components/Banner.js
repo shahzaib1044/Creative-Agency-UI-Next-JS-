@@ -7,8 +7,8 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <Title title='We are looking forward to start a new project' /> <br />
-            <TitleLogo title='Lets take your business to the next level!' />
+            <Title title='Look & Feel Your Best at Curl Up & Dye' /> <br />
+            <TitleLogo title='Your Style, Our Expertise": Curl Up & Dye!' />
           </div>
           <div>
             <button className='button-primary'>Request a call-back</button>
